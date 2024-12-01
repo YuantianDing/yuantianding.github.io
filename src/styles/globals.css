@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.min-h-hscreen {
+  min-height: 50vh;
+}
+
+.source-serif-4-900 {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.box-t-1 {
+  box-shadow: inset 0 1px 0 0 #ffffff0d;
+}
+.bg-color {
+  background-color: #161510;
+}
+
+.textbox {
+  @apply bg-zinc-800 rounded-3xl box-t-1 px-6 py-1 lg:px-10 lg:py-3 text-xl text-zinc-300;
+}
+
+.f-times {
+  font-family: Times, serif;
+}
+
+.font-nosmallcaps {
+  font-variant: normal;
+}
+
+.font-smallcaps {
+  font-variant: small-caps;
+}
+
+.p-size {
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+ul {
+  @apply my-2;
+}
+p {
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  @apply my-3;
+}
+@layer base {
+  h1 {
+    font-size: 37px;
+    line-height: 45px;
+    font-weight: 600;
+    @apply text-zinc-100 mt-10 font-smallcaps mb-5;
+    letter-spacing: 0.01em;
+  }
+  h2 {
+    font-size: 29px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    @apply text-bf mt-7 mb-5;
+  }
+  /* ... */
+}
+/* h1 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.03em;
+} */
+
+.mat-icons-sharp {
+  font-family: 'Material Icons Sharp';
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  /* font-size: 24px; */
+  /* line-height: 1; */
+  letter-spacing: normal;
+  text-transform: none;
+  vertical-align: bottom;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  @apply text-indigo-400;
+}
+
+.text-bf {
+  @apply text-zinc-100 font-bold;
+}
+pt-1px {
+  padding-top: 1px;
+}
+
+pt-2px {
+  padding-top: 2px;
+}
+
+.center-box{
+  min-height: 80vh;
+  margin: 0 auto;
+}
