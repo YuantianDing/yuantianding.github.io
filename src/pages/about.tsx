@@ -15,14 +15,14 @@ export default function HomePage() {
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">school</span> Education</h1>
 
-        <div className="flex flex-row content-start md:mt-10">
+        <div className="flex flex-row content-start sm:mt-10">
             <img alt="PU" src="/images/purdue_university_logo.jpeg" className="rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden"></img>
             <div className="flex flex-col">
                 <span className="footnote-size text-indigo-400">2022 - Present</span>
                 <span className="text-bf h2-size pb-1">Purdue University</span>
             </div>
         </div>
-        <div className="flex flex-row content-start md:mb-10">
+        <div className="flex flex-row content-start sm:mb-10">
             <div className="rounded-lg w-16 h-16 mx-5 flex-none max-sm:hidden" style={{visibility: 'hidden'}}></div>
             <ul className="ml-7 mt-1 note-size list-disc">
                 <li><span>Ph.D. Electrical and Computer Engineering</span></li>
@@ -30,14 +30,14 @@ export default function HomePage() {
                 <li>GPA: 3.91/4.00</li>
             </ul>
         </div>
-        <div className="flex flex-row content-start md:mt-10">
+        <div className="flex flex-row content-start sm:mt-10">
             <img alt="USTC" src="/images/ustc_logo.png" className="bg-black rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden"></img>
             <div className="flex flex-col">
                 <span className="footnote-size text-indigo-400">2018 - 2022</span>
                 <span className="text-bf h2-size pb-1">University of Science and Technology of China</span>
             </div>
         </div>
-        <div className="flex flex-row content-start md:mb-10">
+        <div className="flex flex-row content-start sm:mb-10">
             <div className="rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden" style={{visibility: 'hidden'}}></div>
             <ul className="ml-7 mt-1 note-size list-disc">
                 <li>B.E. in Computer Science and Technology</li>
@@ -47,7 +47,7 @@ export default function HomePage() {
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">library_books</span> Publication</h1>
 
-        <ul className="p-size md:my-10 max-sm:my-5">
+        <ul className="p-size sm:my-10 max-sm:my-5">
             <li className="text-bf">Enhanced Enumeration of Techniques for Syntax-Guided Synthesis of Bit-Vector
                 Manipulations.</li>
             {/* <a className="text-indigo-400" href="https://engineering.purdue.edu/~xqiu/"></a> */}
@@ -65,7 +65,7 @@ export default function HomePage() {
             </li>
         </ul>
 
-        <ul className="p-size md:my-10 max-sm:my-5">
+        <ul className="p-size sm:my-10 max-sm:my-5">
             <li className="text-bf">A Concurrent Approach to String Transformation Synthesis.</li>
             {/* <a className="text-indigo-400" href="https://engineering.purdue.edu/~xqiu/"></a> */}
             <li>WORKING IN PROGRESS</li>
@@ -92,7 +92,7 @@ export default function HomePage() {
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">integration_instructions</span> Projects</h1>
 
-        <ul className="p-size md:my-8 max-sm:my-3">
+        <ul className="p-size sm:my-8 max-sm:my-3">
             <li><span className="text-bf pr-3 mr-1 border-r border-zinc-300">DryadSynth</span> <span className="p-size">Dryad Synthesizer for SyGuS competition</span></li>
             <li>A SyGuS solver designed by Purdue CAP, under active development.</li>
             <li className="footnote-size tracking-tight">
@@ -103,7 +103,7 @@ export default function HomePage() {
                         className="mat-icons-sharp">data_object</span>CODE</a>
             </li>
         </ul>
-        <ul className="p-size md:my-8 max-sm:my-3">
+        <ul className="p-size sm:my-8 max-sm:my-3">
             <li><span className="text-bf pr-3 mr-1 border-r border-zinc-300">Oomotion</span> <span className="p-size">A textobject-oriented editor plugin for VS Code </span></li>
             <li>An editor inspired by Vim, Kakoune and Helix. With tree-sitter and easy-motion support.</li>
             <li className="footnote-size tracking-tight">
@@ -114,6 +114,11 @@ export default function HomePage() {
                         className="mat-icons-sharp">data_object</span>CODE</a>
             </li>
         </ul>
+
+        <h1 className="ml-1"><span className="mat-icons-sharp mr-3">emoji_events</span> <span className='tracking-tighter'>Aw</span>ards</h1>
+
+        <p className="sm:my-5"><span className="text-bf pr-3 mr-1 border-r border-zinc-300">ASC Student Supercomputer Challenge</span> <span className="pr-3 mr-1 border-r">2021</span> First Prize </p>
+        <p className="sm:my-5"><span className="text-bf pr-3 mr-1 border-r border-zinc-300">ACM-China International Parallel Computing Challenge</span> <span className="pr-3 mr-1 border-r">2020</span> Third Prize </p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">perm_contact_calendar</span> Skills</h1>
         <div className="flex flex-row row justify-evenly my-10">
