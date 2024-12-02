@@ -10,7 +10,7 @@ export default function HomePage() {
       <Seo templateTitle='About Me'/>
       <div className="textbox center-box">
         <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
-            <a href="https://engineering.purdue.edu/~xqiu/">Prof. Xiaokang Qiu</a>. Currently, I'm focus on
+            <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. Currently, I'm focus on
             syntax-guided synthesis and quantum circuit synthesis.</p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">school</span> Education</h1>

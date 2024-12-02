@@ -110,3 +110,7 @@ pt-2px {
   min-height: 80vh;
   margin: 0 auto;
 }
+
+.element-class {
+  scrollbar-gutter: stable both-edges;
+}

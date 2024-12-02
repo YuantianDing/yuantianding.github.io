@@ -10,7 +10,7 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous'/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
       </Head>
-      <body className="bg-zinc-900">
+      <body className="bg-zinc-900 element-class">
         <Main />
         <NextScript />
       </body>
