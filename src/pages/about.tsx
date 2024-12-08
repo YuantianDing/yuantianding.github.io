@@ -108,7 +108,7 @@ export default function HomePage() {
             <li>An editor inspired by Vim, Kakoune and Helix. With tree-sitter and easy-motion support.</li>
             <li className="footnote-size tracking-tight">
                 <a className="mr-1"
-                    href="https://marketplace.visualstudio.com/items?itemName=yuantiand.oomotion-vscode"><span
+                    href="ahttps://marketplace.visualstudio.com/items?itemName=yuantiand.oomotion-vscode"><span
                         className="mat-icons-sharp">open_in_new</span>SITE</a>
                 <a className="mr-1" href="https://github.com/YuantianDing/oomotion_vscode"><span
                         className="mat-icons-sharp">data_object</span>CODE</a>
