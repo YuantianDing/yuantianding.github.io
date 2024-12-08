@@ -1,4 +1,4 @@
-import Header, {HeaderZH} from '@/components/layout/Header';
+import Header from '@/components/layout/Header';
 import * as React from 'react';
 
 export default function Layout({ children, title, title_dist }: { title: React.ReactNode, children: React.ReactNode, title_dist?: string }) {
