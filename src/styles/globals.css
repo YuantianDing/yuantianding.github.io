@@ -7,10 +7,10 @@
 }
 
 .source-serif-4-900 {
-  font-family: "Source Serif 4", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+    font-family: 'Source Serif 4', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .box-t-1 {
@@ -20,8 +20,11 @@
   background-color: #161510;
 }
 
+.normal-color {
+  @apply text-zinc-300;
+}
 .textbox {
-  @apply bg-zinc-800 rounded-3xl box-t-1 px-4 py-3 md:px-10 text-xl text-zinc-300;
+  @apply box-t-1 bg-zinc-800 rounded-3xl px-4 py-3 text-xl normal-color md:px-10;
 }
 
 .f-times {
@@ -48,7 +51,7 @@
 }
 
 .note-size {
-  @apply text-xl max-sm:text-base
+  @apply text-xl max-sm:text-base;
 }
 
 .h1-size {
@@ -75,28 +78,28 @@
 }
 
 .title-size {
-  @apply font-bold text-6xl max-sm:text-4xl
+  @apply text-6xl font-bold max-sm:text-4xl;
 }
 
 ul {
   @apply my-2;
 }
 p {
-  @apply my-3 p-size max-sm:my-1;
+  @apply p-size my-3 max-sm:my-1;
 }
 @layer base {
   h1 {
-    @apply h1-size text-zinc-100 mt-10 font-smallcaps mb-5 max-sm:mt-5 max-sm:mb-3;
+    @apply h1-size font-smallcaps mb-5 mt-10 text-white max-sm:mb-3 max-sm:mt-5;
     letter-spacing: 0.01em;
   }
   h2 {
-    @apply h2-size text-zinc-100 font-smallcaps mt-7 mb-5;
+    @apply h2-size font-smallcaps mb-5 mt-7 text-white;
   }
   h3 {
-    @apply h3-size text-zinc-100 text-bf mt-5 mb-3;
+    @apply h3-size text-bf mb-3 mt-5 text-white;
   }
   h4 {
-    @apply h3-size text-zinc-100 font-bold mt-5 mb-3;
+    @apply h3-size mb-3 mt-5 font-bold text-white;
   }
   /* ... */
 }
@@ -129,7 +132,7 @@ a {
 }
 
 .text-bf {
-  @apply text-zinc-100 font-bold;
+  @apply font-bold text-white;
 }
 pt-1px {
   padding-top: 1px;
@@ -139,11 +142,15 @@ pt-2px {
   padding-top: 2px;
 }
 
-.center-box{
+.center-box {
   min-height: 80vh;
   margin: 0 auto;
 }
 
 .element-class {
   scrollbar-gutter: stable both-edges;
+}
+
+.bg-color {
+  @apply bg-zinc-900;
 }
