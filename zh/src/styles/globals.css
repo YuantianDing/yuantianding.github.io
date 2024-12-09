@@ -27,7 +27,7 @@
 }
 
 .f-times {
-  font-family: Times, 'Songti SC', '宋体-简', 'Noto Serif SC', serif;
+  font-family: Times, 'Noto Serif SC', serif;
 }
 
 .font-nosmallcaps {
@@ -63,7 +63,7 @@
 }
 
 .h3-size {
-  font-size: 25px;
+  font-size: 27px;
   line-height: 30px;
   font-weight: 800;
   letter-spacing: 0.03em;
@@ -78,7 +78,7 @@
 
 .subtitle-size {
   @apply text-2xl max-sm:text-xl;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 ul {
