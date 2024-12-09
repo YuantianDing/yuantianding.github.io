@@ -15,11 +15,15 @@
 
 .normal-color {
   /* color: #acacb0; */
-  color: #b4b4b8;
+  color: #c4c4c8;
   /* @apply text-zinc-300; */
 }
 .textbox {
   @apply box-t-1 normal-color rounded-3xl bg-zinc-800 px-4 py-3 text-xl md:px-10;
+}
+
+.f-sans {
+  font-family: sans-serif;
 }
 
 .f-times {
@@ -72,12 +76,17 @@
   font-weight: 800;
 }
 
+.subtitle-size {
+  @apply text-2xl max-sm:text-xl;
+  font-weight: 500;
+}
+
 ul {
   @apply my-2;
 }
 
 .p-size {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 29px;
   letter-spacing: 0.01em;
   @apply max-sm:text-base;
