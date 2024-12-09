@@ -23,8 +23,7 @@
 }
 
 .f-times {
-  font-family: Times, serif;
-  /* 'Songti SC', 'Noto Serif SC',  */
+  font-family: Times, 'Songti SC', '宋体-简', 'Noto Serif SC', serif;
 }
 
 .font-nosmallcaps {
