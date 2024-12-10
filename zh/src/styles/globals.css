@@ -172,6 +172,6 @@ pt-2px {
 
 .doc-box {
   @apply textbox;
-  @apply px-5 rounded-xl py-3 border border-spacing-2 border-zinc-700 hover:bg-gray-700;
+  @apply md:px-5 rounded-xl md:py-3 border border-spacing-2 border-zinc-700 hover:bg-gray-700;
   font-weight: 500;
 }

@@ -10,14 +10,14 @@ export default function HomePage() {
     <Layout title={<>忏悔录</>} title_dist='6rem'>
       <Seo/>
       <h2 className='pl-5'>精神随想</h2>
-      <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-7'>
+      <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-3 md:gap-7'>
         <PageLink href="posts/on_destination" timenote="12/2024">
           <h4 className="my-0 truncate">论决心</h4>
         </PageLink>
       </div>
 
       <h2 className='pl-5 mt-20'>画廊</h2>
-      <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-7'>
+      <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-3 md:gap-7 '>
         <PageLink href="images/Psalms21.png" timenote="11/2024">
           <h4 className="my-0 truncate">圣咏 二十一</h4>
         </PageLink>
