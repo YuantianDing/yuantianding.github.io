@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-text-size {
+  @apply text-xl xl:text-2xl;
+}
+
+.f-sans {
+  font-family: sans-serif;
+}
+
+.f-times {
+  font-family: Times, 'Songti SC', '宋体-简', 'Noto Serif SC', 'STSong',
+    'SimSum', '华文宋体', '中易宋体', serif;
+}
+
+.font-nosmallcaps {
+  font-variant: normal;
+}
+
+.font-smallcaps {
+  font-variant: small-caps;
+}
+
+.footnote-size {
+  @apply text-lg max-sm:text-sm;
+}
+
+.note-size {
+  @apply text-xl max-sm:text-base;
+}

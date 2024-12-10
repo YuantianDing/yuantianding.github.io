@@ -6,7 +6,7 @@ export default function Layout({ children, title, title_dist, subtitle }: { titl
     <div className="subtitle-size mx-auto text-center pt-6 text-indigo-400" style={{height: title_dist ?? '9rem'}}>
       {subtitle}
     </div>
-  ): <div style={{height: title_dist ?? '9rem'}}></div>;
+  ): <div style={{height: title_dist ?? '7rem'}}></div>;
   return <div className="bg-color text-white">
     <div>
       <Header />

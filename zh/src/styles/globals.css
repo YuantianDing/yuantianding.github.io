@@ -158,7 +158,6 @@ pt-2px {
 }
 
 .center-box {
-  min-height: 80vh;
   margin: 0 auto;
 }
 
@@ -168,4 +167,11 @@ pt-2px {
 
 .bg-color {
   @apply bg-zinc-900;
+}
+
+
+.doc-box {
+  @apply textbox;
+  @apply px-5 rounded-xl py-3 border border-spacing-2 border-zinc-700 hover:bg-gray-700;
+  font-weight: 500;
 }

@@ -10,7 +10,7 @@ export default function Header() {
               <Link className="font-bold pr-5 mr-3 border-r text-white max-md:border-r-0" href="/"> Yuantian Ding </Link>
               <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/">文章</Link>
               <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/">杂记</Link>
-              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="https://yuantianding.github.io/about">关于</Link>
+              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/about">关于</Link>
           </div>
         </div>
         <div className="pr-6 pt-2px mt-1">
