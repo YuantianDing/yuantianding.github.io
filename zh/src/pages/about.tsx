@@ -10,7 +10,7 @@ export default function AboutPage() {
       <Seo/>
       <div className="textbox">
         <p>
-          个人博客，无聊打发时间，暂时<Link href="/pageviews.html">还没人看</Link>。 <a href="https://yuantianding.github.io/about">（英文个人信息）</a>
+          个人博客，无聊打发时间，暂时<Link href="https://clustrmaps.com/site/1c33u">还没人看</Link>。 <a href="https://yuantianding.github.io/about">（英文个人信息）</a>
         </p>
 
         <h4>本站采用的字体</h4>
