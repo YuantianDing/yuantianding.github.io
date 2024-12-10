@@ -12,7 +12,7 @@ export default function HomePage() {
       <h2 className='pl-5'>精神随想</h2>
       <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-3 md:gap-7'>
         <PageLink href="posts/on_destination" timenote="12/2024">
-          <h4 className="my-0 truncate">论决心</h4>
+          <h4 className="my-0 truncate">关于决心</h4>
         </PageLink>
       </div>
 

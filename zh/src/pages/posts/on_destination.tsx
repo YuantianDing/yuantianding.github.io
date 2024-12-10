@@ -5,7 +5,7 @@ import Seo from '@/components/Seo';
 
 export default function HomePage() {
   return (
-    <Layout title={<>论决心</>}>
+    <Layout title={<>关于决心</>}>
       <Seo/>
       <div className="textbox">
         <p>
