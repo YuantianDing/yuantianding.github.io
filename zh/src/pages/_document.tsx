@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
@@ -12,6 +13,8 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous'/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet"/>
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=s3lps_XzFCZn2PWG8Lb_JVKKZfLA2orfV4Ael_ii7Zc&cl=ffffff&w=a" async/>
+        <script src="/zh/plms.js" async/>
       </Head>
       <body className="bg-color element-class">
         <Main />

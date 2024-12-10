@@ -4,20 +4,23 @@ import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 import Link from 'next/link';
 import PageLink from '@/components/buttons/PageLink';
+import PageGrid from '@/components/text/PageGrid';
 
 export default function HomePage() {
   return (
-    <Layout title={<>忏悔录</>} title_dist='6rem'>
+    <Layout title={<>忏悔录</>}>
       <Seo/>
       <h2 className='pl-5'>精神随想</h2>
-      <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-3 md:gap-7'>
+      <div className='pb-10'>
+      <PageGrid>
         <PageLink href="posts/on_destination" timenote="12/2024">
           <h4 className="my-0 truncate">关于决心</h4>
         </PageLink>
+      </PageGrid>
       </div>
 
-      <h2 className='pl-5 mt-20'>画廊</h2>
-      <div className='grid grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 grid-flow-row gap-3 md:gap-7 '>
+      <h2 className='pl-5 '>画廊</h2>
+      <PageGrid>
         <PageLink href="images/Psalms21.png" timenote="11/2024">
           <h4 className="my-0 truncate">圣咏 二十一</h4>
         </PageLink>
@@ -36,7 +39,7 @@ export default function HomePage() {
         <PageLink href="images/Beatitudes.png" timenote="11/2024">
           <h4 className="my-0 truncate">真福颂</h4>
         </PageLink>
-      </div>
+      </PageGrid>
     </Layout>
   );
 }

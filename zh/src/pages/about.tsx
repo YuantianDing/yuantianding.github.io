@@ -2,6 +2,7 @@ import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
+import Link from 'next/link';
 
 export default function AboutPage() {
   return (
@@ -9,7 +10,7 @@ export default function AboutPage() {
       <Seo/>
       <div className="textbox">
         <p>
-          个人博客，无聊打发时间，暂时还没人看。 <a href="https://yuantianding.github.io/about">（英文个人信息）</a>
+          个人博客，无聊打发时间，暂时<Link href="/pageviews.html">还没人看</Link>。 <a href="https://yuantianding.github.io/about">（英文个人信息）</a>
         </p>
 
         <h4>本站采用的字体</h4>
@@ -19,6 +20,7 @@ export default function AboutPage() {
           <li>马善政毛笔楷书: <a href="licenses/mashanzheng.txt">LICENSE</a></li>
         </ul>
 
+        
       </div>
     </Layout>
   );

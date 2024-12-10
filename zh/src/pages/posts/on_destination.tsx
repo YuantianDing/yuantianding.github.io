@@ -2,15 +2,13 @@ import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
+import QuoteBlock from '@/components/text/QuoteBlock';
 
 export default function HomePage() {
   return (
     <Layout title={<>关于决心</>}>
       <Seo/>
       <div className="textbox">
-        <p>
-        {/* Do not deceive yourself, rash worker, as if one time can make up for another. For the day is not sufficient to repay in full its own debt to the Lord. （圣攀梯 6:23） */}
-        </p>
         
         <p>
         最近沉思《神圣攀登的阶梯》的时候，突然觉得自己其实连第一步「放弃世界」都攀不上去。
