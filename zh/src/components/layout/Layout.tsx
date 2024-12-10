@@ -13,7 +13,7 @@ export default function Layout({ children, title, title_dist, subtitle }: { titl
 
       <section className="min-h-screen f-times">
         <div className="grid grid-row-6 items-center justify-center py-12 content-stretch">
-            <div style={{height: '5vh', width: '90vw'}}></div> 
+            <div style={{height: '5vh', width: '80vw'}}></div> 
             <span className="title-size mx-auto text-center text-white" style={{transform: 'scale(1.0, 1)'}}> {title} </span> 
             {subtitle_div}
             <div className="items-center justify-center px-3">

@@ -13,9 +13,15 @@
   background-color: #161510;
 }
 
+@layer components {
+  .zoom-110 {
+    zoom: 110%;
+  }
+}
+
 .normal-color {
   /* color: #acacb0; */
-  color: #b4b4b8;
+  color: #b6b6ba;
   /* @apply text-zinc-300; */
 }
 .textbox {
@@ -27,7 +33,7 @@
 }
 
 .f-times {
-  font-family: Times, 'Noto Serif SC', serif;
+  font-family: Times, 'Noto Serif SC', 'Songti SC', '宋体-简', "STSong", "SimSum", "华文宋体", "中易宋体", serif;
 }
 
 .font-nosmallcaps {
@@ -86,7 +92,7 @@ ul {
 }
 
 .p-size {
-  font-size: 21px;
+  font-size: 22px;
   line-height: 29px;
   letter-spacing: 0.01em;
   @apply max-sm:text-base;
