@@ -10,18 +10,23 @@ export default function HomePage() {
   return (
     <Layout title={<>忏悔录</>}>
       <Seo/>
-      <div className="private-content">
-      <h2 className='pl-5'>精神随想</h2>
-      <div className='pb-10'>
+      <div className='private-content'>
+      <h2 className='pl-5 mt-14 private-content'>精神随想</h2>
       <PageGrid>
         <PageLink href="posts/on_destination" timenote="12/2024">
           <h4 className="my-0 truncate">关于决心</h4>
         </PageLink>
       </PageGrid>
       </div>
-      </div>
 
-      <h2 className='pl-5 '>画廊</h2>
+      <h2 className='pl-5 mt-14'>祈祷文学</h2>
+      <PageGrid>
+        <PageLink href="prayer/kydw" timenote="12/2024">
+          <h4 className="my-0 truncate">克欲祷文</h4>
+        </PageLink>
+      </PageGrid>
+
+      <h2 className='pl-5 mt-14'>画廊</h2>
       <PageGrid>
         <PageLink href="images/Psalms21.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">圣咏 二十一</h4>
