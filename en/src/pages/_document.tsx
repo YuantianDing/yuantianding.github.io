@@ -11,7 +11,7 @@ export default function Document() {
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet"/>
         <script src="/plms.js" async/>
       </Head>
-      <body className="bg-color element-class 2xl:zoom-110">
+      <body className="bg-color element-class">
         <Main />
         <NextScript />
       </body>

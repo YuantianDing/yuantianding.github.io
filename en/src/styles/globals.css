@@ -6,13 +6,6 @@
   min-height: 50vh;
 }
 
-zoom-105 {
-  zoom: 105%;
-}
-
-zoom-110 {
-  zoom: 110%;
-}
 
 .source-serif-4-900 {
     font-family: 'Source Serif 4', serif;
@@ -29,8 +22,8 @@ zoom-110 {
 }
 
 .normal-color {
-  @apply text-zinc-300;
-  /* color: #b6b6ba; */
+  /* @apply text-zinc-300; */
+  color: #c0c0c4;
 }
 .textbox {
   @apply box-t-1 bg-zinc-800 rounded-3xl px-4 py-3 text-xl normal-color md:px-10;
@@ -53,7 +46,7 @@ zoom-110 {
 }
 
 .p-size {
-  font-size: 21px;
+  font-size: 22px;
   line-height: 28px;
   letter-spacing: 0.03em;
   @apply max-sm:text-base;
@@ -71,7 +64,7 @@ zoom-110 {
 }
 
 .h2-size {
-  font-size: 29px;
+  font-size: 30px;
   line-height: 36px;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -79,7 +72,7 @@ zoom-110 {
 }
 
 .h3-size {
-  font-size: 26px;
+  font-size: 27px;
   line-height: 30px;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -102,13 +95,13 @@ p {
     letter-spacing: 0.01em;
   }
   h2 {
-    @apply h2-size font-smallcaps mb-4 mt-8 text-white;
+    @apply h2-size font-smallcaps mb-3 mt-9 text-white;
   }
   h3 {
-    @apply h3-size text-bf mb-3 mt-6 text-white;
+    @apply h3-size text-bf mb-3 mt-8 text-white;
   }
   h4 {
-    @apply h3-size mb-2 mt-6 text-zinc-200;
+    @apply h3-size mb-2 mt-8 text-zinc-200;
   }
   /* ... */
 }
