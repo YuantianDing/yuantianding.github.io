@@ -10,6 +10,7 @@ export default function HomePage() {
   return (
     <Layout title={<>忏悔录</>}>
       <Seo/>
+      <div className="private-content">
       <h2 className='pl-5'>精神随想</h2>
       <div className='pb-10'>
       <PageGrid>
@@ -17,6 +18,7 @@ export default function HomePage() {
           <h4 className="my-0 truncate">关于决心</h4>
         </PageLink>
       </PageGrid>
+      </div>
       </div>
 
       <h2 className='pl-5 '>画廊</h2>
