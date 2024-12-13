@@ -23,20 +23,26 @@ export default function HomePage() {
 
       <h2 className='pl-5 '>画廊</h2>
       <PageGrid>
-        <PageLink href="images/Psalms21.png" timenote="11/2024">
+        <PageLink href="images/Psalms21.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">圣咏 二十一</h4>
         </PageLink>
-        <PageLink href="images/Psalms16.png" timenote="11/2024">
+        <PageLink href="images/Psalms16.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">圣咏 十六</h4>
         </PageLink>
-        <PageLink href="images/Psalms130.png" timenote="11/2024">
+        <PageLink href="images/Psalms50.pdf" timenote="11/2024">
+          <h4 className="my-0 truncate">圣咏 五十</h4>
+        </PageLink>
+        <PageLink href="images/Psalms130.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">圣咏 一百三十</h4>
         </PageLink>
-        <PageLink href="images/KaramazovVI3.png" timenote="11/2024">
+        <PageLink href="images/KaramazovVI3.pdf" timenote="11/2024">
           <h4 className="my-0 truncate p-size">卡拉马佐夫兄弟 第六卷</h4>
         </PageLink>
-        <PageLink href="images/Creed.png" timenote="11/2024">
+        <PageLink href="images/Creed.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">信经</h4>
+        </PageLink>
+        <PageLink href="images/TheLordsPrayer.pdf" timenote="11/2024">
+          <h4 className="my-0 truncate">主祷文</h4>
         </PageLink>
         <PageLink href="images/Beatitudes.png" timenote="11/2024">
           <h4 className="my-0 truncate">真福颂</h4>
