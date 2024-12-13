@@ -21,7 +21,8 @@
 }
 
 .normal-color {
-  @apply text-zinc-300;
+  /* @apply text-zinc-300; */
+  color: #b6b6ba;
 }
 .textbox {
   @apply box-t-1 bg-zinc-800 rounded-3xl px-4 py-3 text-xl normal-color md:px-10;
