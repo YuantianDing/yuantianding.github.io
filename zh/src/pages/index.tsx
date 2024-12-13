@@ -44,7 +44,7 @@ export default function HomePage() {
         <PageLink href="images/theLordsPrayer.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">主祷文</h4>
         </PageLink>
-        <PageLink href="images/Beatitudes.png" timenote="11/2024">
+        <PageLink href="images/Beatitudes.pdf" timenote="11/2024">
           <h4 className="my-0 truncate">真福颂</h4>
         </PageLink>
       </PageGrid>
