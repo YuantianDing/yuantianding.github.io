@@ -9,7 +9,7 @@ export default function HomePage() {
     <Layout title={<>About Me</>}>
       <Seo templateTitle='About Me'/>
       <div className="textbox center-box">
-        <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
+        <p className="p-serif">Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
             <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. Currently, I'm focus on
             syntax-guided synthesis and quantum circuit synthesis.</p>
 
