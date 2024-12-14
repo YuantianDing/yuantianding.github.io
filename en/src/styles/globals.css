@@ -18,19 +18,29 @@
   box-shadow: inset 0 1px 0 0 #ffffff0d;
 }
 .bg-color {
-  background-color: #161510;
+  background-color: #18181b;
 }
-
 .normal-color {
   /* @apply text-zinc-300; */
-  color: #c8c8cc;
+  color: #d0d0d4;
 }
 .textbox {
-  @apply box-t-1 bg-zinc-800 rounded-3xl px-4 py-3 text-xl normal-color md:px-10;
+  @apply box-t-1 bg-zinc-800 rounded-3xl px-4 py-3 normal-color md:px-10;
+}
+
+.innerbox {
+  @apply border-l-4 border-indigo-500 px-1 md:px-5;
 }
 
 .f-times {
-  font-family: Times, serif;
+  font-family:  Times, "Frank Ruhl Libre", serif;
+}
+
+.f-frank-ruhl {
+  font-family: "Frank Ruhl Libre", Times, serif;
+}
+.f-georgia {
+  font-family: Georgia, serif;
 }
 
 .font-nosmallcaps {
@@ -46,7 +56,7 @@
 }
 
 .p-size {
-  font-size: 22px;
+  font-size: 21px;
   line-height: 28px;
   letter-spacing: 0.03em;
   @apply max-sm:text-base;
@@ -64,7 +74,7 @@
 }
 
 .h2-size {
-  font-size: 31px;
+  font-size: 32px;
   line-height: 36px;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -83,25 +93,36 @@
   @apply text-6xl font-bold max-sm:text-4xl;
 }
 
+.subtitle-size {
+  @apply text-2xl max-sm:text-lg;
+}
+
 ul {
   @apply my-2;
 }
+
+.p-size-sm {
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  @apply max-sm:text-base;
+}
 p {
-  @apply p-size my-3 max-sm:my-1;
+  @apply my-3 max-sm:my-1;
 }
 @layer base {
   h1 {
-    @apply h1-size font-smallcaps mb-5 mt-10 text-white max-sm:mb-3 max-sm:mt-5;
+    @apply h1-size font-smallcaps mb-5 mt-10 text-white max-sm:mb-3 max-sm:mt-5 f-times;
     letter-spacing: 0.01em;
   }
   h2 {
-    @apply h2-size font-smallcaps mb-3 mt-9 text-white;
+    @apply h2-size font-smallcaps mb-3 mt-9 text-white f-times;
   }
   h3 {
-    @apply h3-size text-bf mb-3 mt-8 text-white;
+    @apply h3-size text-bf mb-3 mt-8 text-white f-times;
   }
   h4 {
-    @apply h3-size mb-2 mt-8 text-zinc-200;
+    @apply h3-size mb-2 mt-8 text-zinc-200 f-times;
   }
   /* ... */
 }
@@ -129,10 +150,14 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
+
 a {
-  @apply text-indigo-400;
+  @apply text-color-highlight;
 }
 
+b {
+  @apply text-color-highlight;
+}
 .text-bf {
   @apply font-bold text-white;
 }
@@ -153,6 +178,14 @@ pt-2px {
   scrollbar-gutter: stable both-edges;
 }
 
-.bg-color {
-  @apply bg-zinc-900;
+ul {
+  @apply p-size list-disc list-outside pl-10;
+}
+
+ol {
+  @apply p-size list-decimal list-outside pl-10;
+}
+
+strong {
+  @apply text-white
 }

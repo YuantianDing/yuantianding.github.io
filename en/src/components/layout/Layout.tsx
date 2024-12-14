@@ -1,7 +1,14 @@
 import Header from '@/components/layout/Header';
 import * as React from 'react';
 
-export default function Layout({ children, title, title_dist }: { title: React.ReactNode, children: React.ReactNode, title_dist?: string }) {
+export default function Layout({ children, title, title_dist, subtitle, innerWidth }: { title: React.ReactNode, children: React.ReactNode, title_dist?: string, subtitle?: React.ReactNode, innerWidth?: string }) {
+  const subtitle_div = (subtitle)? (
+    <div className="subtitle-size mx-auto text-center pt-6 text-color-highlight" style={{height: title_dist ?? '9rem'}}>
+      {subtitle}
+    </div>
+  ): <div style={{height: title_dist ?? '7rem'}}></div>;
+  innerWidth = innerWidth ?? '72rem';
+
   return <div className="bg-color text-white">
     <div>
       <Header />
@@ -10,9 +17,9 @@ export default function Layout({ children, title, title_dist }: { title: React.R
         <div className="grid grid-row-6 items-center justify-center py-12 content-stretch">
             <div style={{height: '4vh', width: '90vw'}}></div> 
             <span className="title-size mx-auto text-center text-white" style={{transform: 'scale(1.0, 1)'}}> {title} </span> 
-            <div style={{height: title_dist ?? '7rem'}}></div>
+            {subtitle_div}
             <div className="items-center justify-center px-3">
-              <div className="max-w-6xl center-box">
+              <div className="center-box p-size f-frank-ruhl" style={{maxWidth: innerWidth}}>
                 {children}
               </div>
             </div>

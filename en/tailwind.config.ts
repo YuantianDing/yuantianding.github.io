@@ -17,6 +17,7 @@ export default {
         '3xl': '2048px',
       },
       colors: {
+        'color-highlight': '#7683FB',
         primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',
