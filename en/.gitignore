@@ -43,3 +43,4 @@ sitemap-*.xml
 
 package-lock.json
 .vscode/
+.env.local

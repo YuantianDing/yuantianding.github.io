@@ -4,12 +4,12 @@ import fs from 'fs';
 import crypto from 'crypto';
 import parse from 'html-react-parser';
 import ReactDOM from 'react-dom/server';
-const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY, // This is the default and can be omitted
-  dangerouslyAllowBrowser: true
-});
+let client: any = null;
 
 export async function generate_explanation(input: React.ReactNode) {
+    if (client === null) {
+        client = new OpenAI({apiKey: process.env['OPENAI_API_KEY']})
+    }
     const text: string = ReactDOM.renderToStaticMarkup(input);
     const sha256 = crypto.createHash('sha256').update(text).digest('hex');
     let html = "";

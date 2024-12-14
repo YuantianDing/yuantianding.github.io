@@ -42,7 +42,7 @@ export const deserialize = <T extends React.ReactElement<any>>(serializedCompone
 }
 
 type ComponentMap = {[key: string]: React.FunctionComponent<any> | React.ComponentClass<any> | string};
-function deserializeElement(data: any, components: ComponentMap): React.ReactNode {
+function deserializeElement(data: any, components: ComponentMap, key?: number): React.ReactNode {
     if(Object.keys(data).length === 0) {
         return null;
     } else if(data === null || data === undefined) {
@@ -50,7 +50,7 @@ function deserializeElement(data: any, components: ComponentMap): React.ReactNod
     } else if (typeof data === 'string') {
         return data;
     } else if(Array.isArray(data)) {
-        return data.map(x => deserializeElement(x, components));
+        return data.map((x, i) => deserializeElement(x, components, i));
     } else if(!('type' in data)) {
         throw new Error(`Deserialization error: {${Object.keys(data)}} must have a type property`)
     } else if (data.type === 'Symbol(react.fragment)') {
@@ -59,6 +59,9 @@ function deserializeElement(data: any, components: ComponentMap): React.ReactNod
         const type = components[data.type] ?? data.type;
         let props = data.props ?? {};
         props = Object.fromEntries(Object.entries(props).map(([key, value]) => [key, deserializeElement(value, components)]));
+        if(key !== undefined && !('key' in props)) {
+            props = {...props, key};
+        }
         return React.createElement(type, props);
     } else {
         throw new Error(`Deserialization error: type ${typeof data.type} must be string`)

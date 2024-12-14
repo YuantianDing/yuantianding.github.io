@@ -18,7 +18,7 @@
   box-shadow: inset 0 1px 0 0 #ffffff0d;
 }
 .bg-color {
-  background-color: #18181b;
+  @apply bg-zinc-900;
 }
 .normal-color {
   /* @apply text-zinc-300; */
@@ -188,4 +188,14 @@ ol {
 
 strong {
   @apply text-white
+}
+
+body{
+  margin-left: autopx;
+  margin-right: autopx;
+  margin-bottom: autopx;
+  margin-top: autopx;
+}
+body {
+  @apply bg-color;
 }

@@ -13,13 +13,13 @@ export default function Layout({ children, title, title_dist, subtitle, innerWid
     <div>
       <Header />
 
-      <section className="min-h-screen f-times">
+      <section className="min-h-screen f-times bg-color">
         <div className="grid grid-row-6 items-center justify-center py-12 content-stretch">
             <div style={{height: '4vh', width: '90vw'}}></div> 
             <span className="title-size mx-auto text-center text-white" style={{transform: 'scale(1.0, 1)'}}> {title} </span> 
             {subtitle_div}
             <div className="items-center justify-center px-3">
-              <div className="center-box p-size f-frank-ruhl" style={{maxWidth: innerWidth}}>
+              <div className="center-box p-size f-frank-ruhl mb-1.5" style={{maxWidth: innerWidth}}>
                 {children}
               </div>
             </div>
