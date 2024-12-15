@@ -9,7 +9,7 @@ export default function StudyNote({note, children, className}: {note: React.Reac
     const [open, setOpen] = useState(false);
     return(
         <div className={"flex flex-row items-start " + className}>
-              <span className="material-icons-sharp mr-3 text-5xl mt-[5px] text-color-highlight hover:cursor-pointer" onClick={_ => setOpen(!open)}>speaker_notes</span>
+              <span className="mat-icons-sharp mr-3 text-5xl mt-[5px] text-color-highlight hover:cursor-pointer" onClick={_ => setOpen(!open)}>speaker_notes</span>
               <div>
               <div>
               <p className="text-white">{note}</p>
