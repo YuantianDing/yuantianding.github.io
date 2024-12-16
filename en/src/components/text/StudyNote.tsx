@@ -23,6 +23,12 @@ export default function StudyNote({note, children, className}: {note: React.Reac
         );
 }
 
-export async function StudyNoteGen(note: React.ReactNode, className = "") {
-    return <StudyNote className={className}note={note}>{await generate_explanation(note)}</StudyNote>
+export class StudyNoteGen {
+  dirname: string;
+  constructor(dirname: string) {
+    this.dirname = dirname.replace('.next/server', 'src').replace('.js', '')
+  }
+  async gen(note: React.ReactNode, className = "") {
+      return <StudyNote className={className}note={note}>{await generate_explanation(this.dirname, note)}</StudyNote>
+  }
 }
