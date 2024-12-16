@@ -43,8 +43,8 @@
 .f-frank-ruhl {
   font-family:  "Frank Ruhl Libre", Times, serif;
 }
-.f-pt-serif {
-  font-family: "PT Serif", Times, serif;
+.f-ibm-plex-serif {
+  font-family: "IBM Plex Serif", Times, serif;
 }
 .f-georgia {
   font-family: Georgia, serif;
@@ -65,7 +65,7 @@
 .p-size {
   font-size: 21px;
   line-height: 28px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.01em;
   @apply max-sm:text-base;
 }
 
