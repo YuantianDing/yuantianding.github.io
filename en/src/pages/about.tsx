@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <Layout title={<>About Me</>}>
+    <Layout title={<>About Me</>} innerWidth='74rem'>
       <Seo templateTitle='About Me'/>
       <div className="textbox center-box">
         <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
