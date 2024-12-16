@@ -88,7 +88,7 @@
   font-size: 32px;
   line-height: 36px;
   font-weight: 500;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
   @apply max-sm:text-2xl;
 }
 
@@ -96,7 +96,6 @@
   font-size: 27px;
   line-height: 30px;
   font-weight: 500;
-  letter-spacing: 0.01em;
   @apply max-sm:text-xl;
 }
 
@@ -131,9 +130,11 @@ p {
   }
   h3 {
     @apply h3-size text-bf mb-3 mt-8 text-white font-serif-lg;
+    letter-spacing: 0.03em;
   }
   h4 {
     @apply h3-size mb-2 mt-8 text-zinc-200 font-serif-lg;
+    letter-spacing: 0.01em;
   }
   /* ... */
 }
