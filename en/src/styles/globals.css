@@ -36,16 +36,19 @@
   @apply border-l-4 border-indigo-500 px-1 md:px-5;
 }
 
-.f-times {
+.font-serif-lg {
   font-family:  Times, "Frank Ruhl Libre", serif;
 }
 
-.f-frank-ruhl {
-  font-family:  "Frank Ruhl Libre", Times, serif;
+.font-serif-sm {
+  font-family: "IBM Plex Serif", "PT Serif", "Frank Ruhl Libre", Times, serif;
 }
-.f-ibm-plex-serif {
-  font-family: "IBM Plex Serif", Times, serif;
+
+.font-serif-md {
+  font-family: "PT Serif", "IBM Plex Serif", "Frank Ruhl Libre", Times, serif;
 }
+
+
 .f-georgia {
   font-family: Georgia, serif;
 }
@@ -119,17 +122,17 @@ p {
 }
 @layer base {
   h1 {
-    @apply h1-size font-smallcaps mb-5 mt-10 text-white max-sm:mb-3 max-sm:mt-5 f-times;
+    @apply h1-size font-smallcaps mb-5 mt-10 text-white max-sm:mb-3 max-sm:mt-5 font-serif-lg;
     letter-spacing: 0.01em;
   }
   h2 {
-    @apply h2-size font-smallcaps mb-3 mt-9 text-white f-times;
+    @apply h2-size font-smallcaps mb-3 mt-9 text-white font-serif-lg;
   }
   h3 {
-    @apply h3-size text-bf mb-3 mt-8 text-white f-times;
+    @apply h3-size text-bf mb-3 mt-8 text-white font-serif-lg;
   }
   h4 {
-    @apply h3-size mb-2 mt-8 text-zinc-200 f-times;
+    @apply h3-size mb-2 mt-8 text-zinc-200 font-serif-lg;
   }
   /* ... */
 }

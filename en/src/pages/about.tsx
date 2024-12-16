@@ -17,7 +17,7 @@ export default function HomePage() {
 
         <div className="flex flex-row content-start sm:mt-10">
             <img alt="PU" src="/images/purdue_university_logo.jpeg" className="rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden"></img>
-            <div className="flex flex-col">
+            <div className="flex flex-col font-serif-lg">
                 <span className="footnote-size text-color-highlight">2022 - Present</span>
                 <span className="text-bf h2-size pb-1">Purdue University</span>
             </div>
@@ -32,7 +32,7 @@ export default function HomePage() {
         </div>
         <div className="flex flex-row content-start sm:mt-10">
             <img alt="USTC" src="/images/ustc_logo.png" className="bg-black rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden"></img>
-            <div className="flex flex-col">
+            <div className="flex flex-col font-serif-lg">
                 <span className="footnote-size text-color-highlight">2018 - 2022</span>
                 <span className="text-bf h2-size pb-1">University of Science and Technology of China</span>
             </div>
@@ -82,7 +82,7 @@ export default function HomePage() {
 
         <div className="flex flex-col">
             <span className="footnote-size text-color-highlight">07/2021 - 12/2021</span>
-            <span className="text-bf p-size pb-1">Nanjing University Research Internship</span>
+            <span className="text-bf p-size pb-1 font-serif-md">Nanjing University Research Internship</span>
         </div>
         <ul className="flex-none ml-7 mt-1 list-disc text-xl p-size">
             <li>with <a href="https://z-zhiqiang.github.io/">Zhiqiang Zuo</a>, <a
