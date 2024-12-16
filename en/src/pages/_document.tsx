@@ -14,7 +14,7 @@ export default function Document() {
         {/* <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"/> */}
         <script src="/plms.js" async/>
       </Head>
-      <body className="bg-color element-class 3xl:zoom-110">
+      <body className="bg-color element-class">
         <Main />
         <NextScript />
       </body>
