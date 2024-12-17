@@ -3,12 +3,13 @@ import Layout from '@/components/layout/Layout';
 import Seo from '@/components/Seo';
 import PercentageCircle from '@/components/PercentageCircle';
 import Link from 'next/link';
+import Button from '@/components/buttons/Button';
 
 export default function HomePage() {
   return (
     <Layout title={<>About Me</>} innerWidth='74rem'>
       <Seo templateTitle='About Me'/>
-      <div className="textbox center-box">
+      <div className="textbox center-box font-serif-md">
         <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
             <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. Currently, I'm focusing on
             syntax-guided synthesis and quantum circuit synthesis.</p>
@@ -48,8 +49,8 @@ export default function HomePage() {
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">library_books</span> Publication</h1>
 
         <div className="p-size sm:my-10 max-sm:my-5">
-            <div className="text-bf">Enhanced Enumeration of Techniques for Syntax-Guided Synthesis of Bit-Vector
-                Manipulations.</div>
+            <strong>Enhanced Enumeration of Techniques for Syntax-Guided Synthesis of Bit-Vector
+                Manipulations.</strong>
             {/* <a className="text-color-highlight" href="https://engineering.purdue.edu/~xqiu/"></a> */}
             <div>Yuantian Ding, Xiaokang Qiu.</div>
             <div>(POPL '24) <em>Proc. 51st ACM SIGPLAN Symposium on Principles of Programming Languages.</em> </div>
@@ -66,7 +67,7 @@ export default function HomePage() {
         </div>
 
         <div className="p-size sm:my-10 max-sm:my-5">
-            <div className="text-bf">A Concurrent Approach to String Transformation Synthesis.</div>
+            <strong>A Concurrent Approach to String Transformation Synthesis.</strong>
             {/* <a className="text-color-highlight" href="https://engineering.purdue.edu/~xqiu/"></a> */}
             <div>WORKING IN PROGRESS</div>
             {/* <div>(POPL '24) <em>Proc. 51st ACM SIGPLAN Symposium on Principles of Programming Languages.</em> </div> */}
@@ -82,7 +83,7 @@ export default function HomePage() {
 
         <div className="flex flex-col">
             <span className="footnote-size text-color-highlight">07/2021 - 12/2021</span>
-            <span className="text-bf p-size pb-1 font-serif-md">Nanjing University Research Internship</span>
+            <strong className="p-size pb-1 font-serif-md">Nanjing University Research Internship</strong>
         </div>
         <ul className="flex-none ml-7 mt-1 list-disc text-xl p-size">
             <li>with <a href="https://z-zhiqiang.github.io/">Zhiqiang Zuo</a>, <a
@@ -93,7 +94,7 @@ export default function HomePage() {
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">integration_instructions</span> Projects</h1>
 
         <div className="p-size sm:my-8 max-sm:my-3">
-            <div><span className="text-bf pr-3 mr-1 border-r border-zinc-300">DryadSynth</span> <span className="p-size">Dryad Synthesizer for SyGuS competition</span></div>
+            <div><strong className="pr-3 mr-1 border-r border-zinc-300">DryadSynth</strong> <span className="p-size">Dryad Synthesizer for SyGuS competition</span></div>
             <div>A SyGuS solver designed by Purdue CAP, under active development.</div>
             <div className="footnote-size tracking-tight">
                 <a className="mr-1"
@@ -104,7 +105,7 @@ export default function HomePage() {
             </div>
         </div>
         <div className="p-size sm:my-8 max-sm:my-3">
-            <div><span className="text-bf pr-3 mr-1 border-r border-zinc-300">Oomotion</span> <span className="p-size">A textobject-oriented editor plugin for VS Code </span></div>
+            <div><strong className="pr-3 mr-1 border-r border-zinc-300">Oomotion</strong> <span className="p-size">A textobject-oriented editor plugin for VS Code </span></div>
             <div>An editor inspired by Vim, Kakoune and Helix. With tree-sitter and easy-motion support.</div>
             <div className="footnote-size tracking-tight">
                 <a className="mr-1"
@@ -117,8 +118,8 @@ export default function HomePage() {
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">emoji_events</span> <span className='tracking-tighter'>Aw</span>ards</h1>
 
-        <p className="sm:my-5"><span className="text-bf pr-3 mr-1 border-r border-zinc-300">ASC Student Supercomputer Challenge</span> <span className="pr-3 mr-1 border-r">2021</span> First Prize </p>
-        <p className="sm:my-5"><span className="text-bf pr-3 mr-1 border-r border-zinc-300">ACM-China International Parallel Computing Challenge</span> <span className="pr-3 mr-1 border-r">2020</span> Third Prize </p>
+        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">ASC Student Supercomputer Challenge</strong> <span className="pr-3 mr-1 border-r">2021</span> First Prize </p>
+        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">ACM-China International Parallel Computing Challenge</strong> <span className="pr-3 mr-1 border-r">2020</span> Third Prize </p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">perm_contact_calendar</span> Skills</h1>
         <div className="flex flex-row row justify-evenly my-10">
@@ -144,6 +145,7 @@ export default function HomePage() {
             </div>
         </div>
       </div>
+      {/* <p className='text-center mt-4 text-base font-sans text-zinc-500'> Download my <Link href="/uploads/Resume.pdf">Resume</Link> for more information.</p> */}
     </Layout>
   );
 }

@@ -18,6 +18,10 @@ export default {
       },
       colors: {
         'color-highlight': '#7683FB',
+        'color-lightwhite': '#d8d8db',
+        'color-normal': '#bcbcc0',
+        'color-bg1': '#18181b',
+        'color-bg2': '#27272a',
         primary: {
           // Customize it on globals.css :root
           50: 'rgb(var(--tw-color-primary-50) / <alpha-value>)',

@@ -19,7 +19,7 @@ export default function Layout({ children, title, title_dist, subtitle, innerWid
             <span className="title-size mx-auto text-center text-white" style={{transform: 'scale(1.0, 1)'}}> {title} </span> 
             {subtitle_div}
             <div className="items-center justify-center px-3">
-              <div className="center-box p-size font-serif-md mb-1.5" style={{maxWidth: innerWidth}}>
+              <div className="center-box p-size font-serif-sm mb-1.5" style={{maxWidth: innerWidth}}>
                 {children}
               </div>
             </div>
