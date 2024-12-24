@@ -20,7 +20,7 @@ export default function HomePage() {
             <img alt="PU" src="/images/purdue_university_logo.jpeg" className="rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden"></img>
             <div className="flex flex-col font-serif-lg">
                 <span className="footnote-size text-color-highlight">2022 - Present</span>
-                <span className="text-bf h2-size pb-1">Purdue University</span>
+                <span className="text-bf h2-size pb-1 tracking-wide">Purdue University</span>
             </div>
         </div>
         <div className="flex flex-row content-start sm:mb-10">
@@ -35,7 +35,7 @@ export default function HomePage() {
             <img alt="USTC" src="/images/ustc_logo.png" className="bg-black rounded-lg w-16 h-16 mx-5 flex-none  max-sm:hidden"></img>
             <div className="flex flex-col font-serif-lg">
                 <span className="footnote-size text-color-highlight">2018 - 2022</span>
-                <span className="text-bf h2-size pb-1">University of Science and Technology of China</span>
+                <span className="text-bf h2-size pb-1 tracking-wide">University of Science and Technology of China</span>
             </div>
         </div>
         <div className="flex flex-row content-start sm:mb-10">

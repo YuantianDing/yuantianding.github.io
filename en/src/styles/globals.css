@@ -82,7 +82,6 @@
   font-size: 32px;
   line-height: 36px;
   font-weight: 500;
-  letter-spacing: 0.03em;
   @apply max-sm:text-2xl;
 }
 
@@ -121,6 +120,7 @@ p {
   }
   h2 {
     @apply h2-size font-smallcaps mb-3 mt-9 text-white font-serif-lg;
+    letter-spacing: 0.01em;
   }
   h3 {
     @apply h3-size text-bf mb-3 mt-8 text-white font-serif-lg;

@@ -1,0 +1,1 @@
+In the phrase "Rumors grew of a shadow in the East," the word "of" is used to indicate what the rumors are about. In this context, "of" introduces the subject or the topic of the rumors, which is "a shadow in the East." It points to the content or nature of the rumors circulating.
