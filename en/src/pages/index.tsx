@@ -14,6 +14,9 @@ export default function HomePage() {
           <PageLink href="notes/felicity" timenote="12/2024">
           <h4 className="my-0 truncate">Felicity</h4>
           </PageLink>
+          <PageLink href="notes/thelordoftherings" timenote="12/2024">
+          <h4 className="my-0 truncate">The Lord of The Rings</h4>
+          </PageLink>
       </PageGrid>
     </Layout>
   );
