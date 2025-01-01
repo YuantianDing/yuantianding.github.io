@@ -8,10 +8,10 @@ export default function Header() {
         <div>
           <div className="pl-10 py-2 my-auto">
               <Link className="font-bold pr-5 mr-3 border-r text-white max-md:border-r-0" href="/"> Yuantian Ding </Link>
-              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/">Posts</Link>
-              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/">Research</Link>
-              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/">Projects</Link>
-              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/">Notes</Link>
+              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/posts">Posts</Link>
+              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/posts">Research</Link>
+              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/posts">Projects</Link>
+              <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/posts">Notes</Link>
               <Link className="no-underline px-4 py-3 text-white rounded hover:bg-gray-200 dark:hover:bg-gray-800 max-md:hidden lg:inline" href="/about">About</Link>
           </div>
         </div>
