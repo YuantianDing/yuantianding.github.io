@@ -19,7 +19,7 @@ export default {
       colors: {
         'color-highlight': '#7683FB',
         'color-lightwhite': '#d8d8db',
-        'color-normal': '#bcbcc0',
+        'color-normal': '#cdcdd0',
         'color-bg1': '#18181b',
         'color-bg2': '#27272a',
         primary: {
