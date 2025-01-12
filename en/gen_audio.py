@@ -15,6 +15,8 @@ def generate_audio_lines(lines: list[str], file_path: str):
     final_audio = AudioSegment.empty()
     silence = AudioSegment.silent(duration=2000)
     for line in lines:
+        if " " not in line:
+            line = "[pause] " + line
         generate_audio(line, "/tmp/gen_audio.mp3")
         segment_audio = AudioSegment.from_file("/tmp/gen_audio.mp3")
         final_audio += segment_audio

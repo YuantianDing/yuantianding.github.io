@@ -12,10 +12,10 @@ export default function HomePage({children}: {children: any}) {
   return <Layout title={<>The Lord of the Rings</>} subtitle={<>English Study Notes</>}>
   <Seo/>
   <div className="flex flex-col">
-    <h2 className='pl-5 mt-14'>The Chronicles of Narnia</h2>
+    <h2 className='pl-5 mt-14'>The Lion, the Witch, and the Wardrobe</h2>
     <PageGrid>
-        <PageLink href="thechroniclesofnarnia/wardrobe" timenote="12/2024">
-        <h4 className="my-0 truncate">The Lion, the Witch, and the Wardrobe</h4>
+        <PageLink href="wardrobe/1" timenote="12/2024">
+        <h4 className="my-0 truncate">Chapter 1</h4>
         </PageLink>
     </PageGrid>
   </div>

@@ -32,15 +32,15 @@
 
 @layer components {
   .font-serif-lg {
-    font-family:  Times, "Frank Ruhl Libre", serif;
+    font-family:  Times, "Frank Ruhl Libre", "Songti SC", "Noto Serif SC", serif;
   }
 
   .font-serif-sm {
-    font-family:  "PT Serif", "Frank Ruhl Libre", Times, serif;
+    font-family:  "PT Serif", "Frank Ruhl Libre", Times, "Songti SC", "Noto Serif SC", serif;
   }
 
   .font-serif-md {
-    font-family: "PT Serif", "IBM Plex Serif", "Frank Ruhl Libre", Times, serif;
+    font-family: "PT Serif", "Frank Ruhl Libre", Times, "Songti SC", "Noto Serif SC", serif;
   }
 }
 

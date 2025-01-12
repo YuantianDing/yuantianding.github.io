@@ -10,11 +10,10 @@ export const getStaticProps = async (ctx: any) => {
   console.log(__filename);
   const generator = new StudyNoteGen(__filename);
   const children = serialize(
-    <Layout title={<>Felicity S1E2</>} subtitle={<>English Study Notes</>}>
+    <Layout title={<>The Lion, the Witch, the Wardrobe</>} subtitle={<>Chapter 1: Lucy and the Wardrobe</>}>
       <Seo/>
       <div className="flex flex-col">
         <div className="textbox">
-            <h3>Lucy and the Wardrobe</h3>
             {await generator.gen(<>sent away from London</>)}
             {await generator.gen(<>air-raids</>)}
             {await generator.gen(<>shaggy white hair</>)}
