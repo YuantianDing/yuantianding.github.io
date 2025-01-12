@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fnotes\u002Ffelicity\u002Fs1e2","\u002Fnotes\u002Fthechroniclesofnarnia\u002F2","\u002Fnotes\u002Fthelordoftherings\u002F1","\u002Fnotes\u002Fthelordoftherings\u002F2","\u002Fnotes\u002Fthelordoftherings\u002F3","\u002Fnotes\u002Fthemostreluctantconvert"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

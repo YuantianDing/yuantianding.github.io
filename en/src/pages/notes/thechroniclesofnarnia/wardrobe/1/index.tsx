@@ -12,7 +12,7 @@ export const getStaticProps = async (ctx: any) => {
   const children = serialize(
     <Layout title={<>The Lion, the Witch, the Wardrobe</>} subtitle={<>Chapter 1: Lucy and the Wardrobe</>}>
       <Seo/>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center">
         <div className="textbox">
             {await generator.gen(<>sent away from London</>)}
             {await generator.gen(<>air-raids</>)}
@@ -70,9 +70,8 @@ export const getStaticProps = async (ctx: any) => {
             {await generator.gen(<>woollen muffler</>)}
             {await generator.gen(<>reddish</>)}
             {await generator.gen(<>brown-paper parcels</>)}
-
-            <h3></h3>
         </div>
+        <audio className="py-3" src={generator.get_mp3_address()} controls={true}></audio>
       </div>
     </Layout>
   );

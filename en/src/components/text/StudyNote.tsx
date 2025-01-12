@@ -39,4 +39,7 @@ export class StudyNoteGen {
     const filename = this.dirname + '/_allnotes.md';
     fs.writeFileSync(filename, this.notes.join('\n\n'));
   }
+  get_mp3_address(): string {
+    return "https://github.com/YuantianDing/yuantianding.github.io/raw/refs/heads/main/en/src/" + this.dirname.split("/src/")[1] + "/_allnotes.mp3";
+  }
 }

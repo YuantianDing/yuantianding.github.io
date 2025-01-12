@@ -43,7 +43,9 @@ export const deserialize = <T extends React.ReactElement<any>>(serializedCompone
 
 type ComponentMap = {[key: string]: React.FunctionComponent<any> | React.ComponentClass<any> | string};
 function deserializeElement(data: any, components: ComponentMap, key?: number): React.ReactNode {
-    if(Object.keys(data).length === 0) {
+    if(typeof data === 'boolean') {
+        return data;
+    } else if(Object.keys(data).length === 0) {
         return null;
     } else if(data === null || data === undefined) {
         throw new Error(`Deserialization error: undefined`)
