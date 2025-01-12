@@ -4,6 +4,7 @@ import React, {Component, useState} from 'react'
 import fs from 'fs';
 import ReactDom from 'react-dom/server';
 import { generate_explanation } from '@/lib/openai';
+import reactToText from 'react-to-text';
 
 export default function StudyNote({note, children, className}: {note: React.ReactNode, children: React.ReactNode, className?: string}) {
     const [open, setOpen] = useState(false);
@@ -25,10 +26,17 @@ export default function StudyNote({note, children, className}: {note: React.Reac
 
 export class StudyNoteGen {
   dirname: string;
+  notes: string[] = [];
   constructor(dirname: string) {
     this.dirname = dirname.replace('.next/server', 'src').replace('.js', '')
+    this.notes = [];
   }
   async gen(note: React.ReactNode, className = "") {
+      this.notes.push(reactToText(note));
       return <StudyNote className={className}note={note}>{await generate_explanation(this.dirname, note)}</StudyNote>
+  }
+  async allnotes_file() {
+    const filename = this.dirname + '/_allnotes.md';
+    fs.writeFileSync(filename, this.notes.join('\n\n'));
   }
 }

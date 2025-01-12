@@ -5,7 +5,7 @@ import fs from 'fs';
 import * as _ from 'lodash';
 import parse from 'html-react-parser';
 import ReactDOM from 'react-dom/server';
-let client: any = null;
+let client: OpenAI | null = null;
 
 export async function generate_explanation(dirname: string, input: React.ReactNode) {
     if (client === null) {
@@ -16,8 +16,9 @@ export async function generate_explanation(dirname: string, input: React.ReactNo
     const title = text.split("").filter(ch => /^[A-Za-z0-9]$/i.test(ch)).join("").substring(0, 30) + ':' + sha256.substring(0, 4);
     let md = "";
     if (!fs.existsSync(`${dirname}/${title}.md`)) {
+        const mbyb = (text.match(/<b>(.*?)<\/b>/))? "用<b>标出的": "";
         const params: OpenAI.Chat.ChatCompletionCreateParams  = {
-            messages: [{role: 'system', content: "Explain the phrase marked by <b> in the user-given sentence, and generate example sentences to explain other meanings of the phrase (if exists). "},
+            messages: [{role: 'system', content: `用中文简要解释用户给出的${mbyb}短语，并给出英文例句。`},
             { role: 'user', content: text }],
             model: 'gpt-4o',
         };

@@ -20,6 +20,9 @@ export default function HomePage() {
           <PageLink href="notes/themostreluctantconvert" timenote="01/2025">
           <h4 className="my-0 truncate">The Most Reluctant Convert</h4>
           </PageLink>
+          <PageLink href="notes/thechroniclesofnarnia" timenote="01/2025">
+          <h4 className="my-0 truncate">The Chronicles of Narnia</h4>
+          </PageLink>
       </PageGrid>
     </Layout>
   );
