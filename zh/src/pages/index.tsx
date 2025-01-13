@@ -19,12 +19,12 @@ export default function HomePage() {
       </PageGrid>
       </div>
 
-      <h2 className='pl-5 mt-14'>祈祷文学</h2>
+      {/* <h2 className='pl-5 mt-14'>祈祷文学</h2>
       <PageGrid>
         <PageLink href="prayer/kydw" timenote="12/2024">
           <h4 className="my-0 truncate">克欲祷文</h4>
         </PageLink>
-      </PageGrid>
+      </PageGrid> */}
 
       <h2 className='pl-5 mt-14'>画廊</h2>
       <PageGrid>

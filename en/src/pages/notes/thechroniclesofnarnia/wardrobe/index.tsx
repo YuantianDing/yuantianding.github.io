@@ -15,7 +15,7 @@ export default function HomePage({children}: {children: any}) {
     <h2 className='pl-5 mt-14'>The Lion, the Witch, and the Wardrobe</h2>
     <PageGrid>
         <PageLink href="wardrobe/1" timenote="12/2024">
-        <h4 className="my-0 truncate">Chapter 1</h4>
+        <p className="my-0 truncate">Chapter 1</p>
         </PageLink>
     </PageGrid>
   </div>

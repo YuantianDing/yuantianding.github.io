@@ -22,8 +22,9 @@
   box-shadow: inset 0 1px 0 0 #ffffff0d;
 }
 
+
 .textbox {
-  @apply box-t-1 bg-color-bg2 rounded-3xl px-4 py-3 text-color-normal md:px-10;
+  @apply box-t-1 bg-color-bg2 rounded-3xl px-4 py-4 text-color-normal md:px-10 w-full;
 }
 
 .innerbox {
@@ -36,11 +37,11 @@
   }
 
   .font-serif-sm {
-    font-family:  "PT Serif", "Frank Ruhl Libre", Times, "Songti SC", "Noto Serif SC", serif;
+    font-family:  "IBM Plex Serif", "Frank Ruhl Libre", Times, "Songti SC", "Noto Serif SC", serif;
   }
 
   .font-serif-md {
-    font-family: "PT Serif", "Frank Ruhl Libre", Times, "Songti SC", "Noto Serif SC", serif;
+    font-family: "IBM Plex Serif", "Frank Ruhl Libre", Times, "Songti SC", "Noto Serif SC", serif;
   }
 }
 
@@ -88,8 +89,7 @@
 .h3-size {
   font-size: 27px;
   line-height: 30px;
-  font-weight: 500;
-  @apply max-sm:text-xl;
+  @apply max-sm:text-xl font-strong;
 }
 
 .title-size {
@@ -163,7 +163,7 @@ b {
   @apply text-color-highlight;
 }
 .text-bf {
-  @apply font-bold text-white;
+  @apply font-strong text-white;
 }
 pt-1px {
   padding-top: 1px;
@@ -190,8 +190,13 @@ ol {
   @apply p-size list-decimal list-outside pl-10;
 }
 
+.font-strong {
+  font-weight: 550;
+  @apply text-color-lightwhite;
+}
+
 strong {
-  @apply text-color-lightwhite
+  @apply font-strong;
 }
 
 body{

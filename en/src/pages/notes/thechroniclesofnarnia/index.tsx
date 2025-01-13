@@ -15,7 +15,7 @@ export default function HomePage({children}: {children: any}) {
     <h2 className='pl-5 mt-14'>The Chronicles of Narnia</h2>
     <PageGrid>
         <PageLink href="thechroniclesofnarnia/wardrobe" timenote="12/2024">
-        <h4 className="my-0 truncate">The Lion, the Witch, and the Wardrobe</h4>
+        <p className="my-0 truncate">The Lion, the Witch, and the Wardrobe</p>
         </PageLink>
     </PageGrid>
   </div>

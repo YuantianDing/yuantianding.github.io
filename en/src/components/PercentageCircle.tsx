@@ -11,7 +11,7 @@ export default function PercentageCircle({ className, stroke_width, percentage, 
               strokeDasharray="100" strokeDashoffset={100-percentage} strokeLinecap="round"></circle>
       </svg>
       <div className="absolute top-1/2 start-1/2 transform -translate-y-1/2 -translate-x-1/2">
-          <span className="text-center font-bold text-indigo-500">{children}</span>
+          <span className="text-center font-strong text-indigo-500">{children}</span>
       </div>
     </div>
   );
