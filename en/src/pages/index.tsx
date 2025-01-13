@@ -11,8 +11,8 @@ export default function HomePage() {
       <Seo templateTitle='About Me'/>
       <div className="textbox center-box font-serif-md">
         <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
-            <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. Currently, I'm focusing on
-            syntax-guided synthesis and quantum circuit synthesis.</p>
+            <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. Pursuing summer 2025 internships to
+            gain hands-on industry experience in software engineering.</p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">school</span> Education</h1>
 
@@ -116,20 +116,57 @@ export default function HomePage() {
             </div>
         </div>
 
+        <div className="p-size sm:my-8 max-sm:my-3">
+            <div><strong className="pr-3 mr-1 border-r border-zinc-300">TheoryComboViz</strong> <span className="p-size">Polite theory combination visualizer</span></div>
+            <div>A visualizer for <a href="https://link.springer.com/chapter/10.1007/11559306_3">polite theory combination</a>, demonstrated using Sets, intended to make SMT solvers easier to understand. </div>
+            <div className="footnote-size tracking-tight mt-[1px]">
+                <a className="mr-1"
+                    href="https://docs.google.com/presentation/d/1lR_ZgWF3qUQmqB5BKtot7045xPKbSlKUDN402SvpBiM/edit?usp=sharing"><span
+                        className="mat-icons-sharp">description</span>SLIDES</a>
+                <a className="mr-1" href="https://github.com/vivCoding/theory-combo-viz"><span
+                        className="mat-icons-sharp">data_object</span>CODE</a>
+                <a className="mr-1" href="https://theory-combo-viz.vercel.app/"><span
+                        className="mat-icons-sharp">open_in_new</span>DEMO</a>
+            </div>
+        </div>
+        <div className="p-size sm:my-8 max-sm:my-3">
+            <div><strong className="pr-3 mr-1 border-r border-zinc-300">HilbertProver</strong> <span className="p-size">A prover for Hilbert system</span></div>
+            <div>An Automatic Theorem Prover for <a href="https://en.wikipedia.org/wiki/Hilbert_system">Hilbert System</a>, generating nearly-minimal proofs, with some interesting optimizations.</div>
+            <div className="footnote-size tracking-tight mt-[1px]">
+                <a className="mr-1"
+                    href="https://github.com/YuantianDing/HibertProver/blob/master/test_results.pdf"><span
+                        className="mat-icons-sharp">open_in_new</span>PDF</a>
+                <a className="mr-1" href="https://github.com/YuantianDing/HibertProver"><span
+                        className="mat-icons-sharp">data_object</span>CODE</a>
+            </div>
+        </div>
+
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">emoji_events</span> <span className='tracking-tighter'>Aw</span>ards</h1>
 
-        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">ASC Student Supercomputer Challenge</strong> <span className="pr-3 mr-1 border-r">2021</span> First Prize </p>
-        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">ACM-China International Parallel Computing Challenge</strong> <span className="pr-3 mr-1 border-r">2020</span> Third Prize </p>
+        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">ASC Student Supercomputer Challenge</strong> <span className="pr-3 mr-1 border-r">2021</span> First Prize
+        <br/> Topic (My Part): Efficient Parallelization of <a href="https://github.com/scottransom/presto">PRESTO</a>
+        </p>
+        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">ACM-China International Parallel Computing Challenge</strong> <span className="pr-3 mr-1 border-r">2020</span> Third Prize
+        <br/> Topic (Final): Efficient Numerical Simulation of <a href="/uploads/数值方法.pdf">Supersonic Underexpanded Thermal Jets</a>
+        </p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">perm_contact_calendar</span> Skills</h1>
         <div className="flex flex-row row justify-evenly my-10">
             <div className="flex flex-col items-center">
-                <PercentageCircle className="text-xl size-16 " stroke_width={2} percentage={50}>50%</PercentageCircle>
+                <PercentageCircle className="text-xl size-16 " stroke_width={2} percentage={60}>60%</PercentageCircle>
                 <span className="p-size text-center">C++</span>
             </div>
             <div className="flex flex-col items-center">
-                <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={70}>70%</PercentageCircle>
+                <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={80}>80%</PercentageCircle>
                 <span className="p-size text-center">Rust</span>
+            </div>
+            <div className="flex flex-col items-center">
+                <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={70}>70%</PercentageCircle>
+                <span className="p-size text-center">Typescript</span>
+            </div>
+            <div className="flex flex-col items-center">
+                <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={50}>50%</PercentageCircle>
+                <span className="p-size text-center">Java</span>
             </div>
             <div className="flex flex-col items-center">
                 <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={50}>50%</PercentageCircle>
@@ -139,11 +176,11 @@ export default function HomePage() {
                 <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={90}>90%</PercentageCircle>
                 <span className="p-size text-center">Python</span>
             </div>
-            <div className="flex flex-col items-center">
-                <PercentageCircle className="text-xl size-16" stroke_width={2} percentage={70}>70%</PercentageCircle>
-                <span className="p-size text-center">Typescript</span>
-            </div>
         </div>
+        <h1 className="ml-1"><span className="mat-icons-sharp mr-3">sailing</span> Hobbies</h1>
+
+        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">Chanting</strong> Favorite Piece: <a href="https://musescore.com/user/33379492/scores/7390607">Cherubic Hymn (Kastorsky)</a></p>
+        <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">Playing <a href="https://en.wikipedia.org/wiki/Erhu">Erhu</a></strong> Favorite Piece: <a href="https://en.wikipedia.org/wiki/Abing">Erquan Yingyue</a> </p>
       </div>
       {/* <p className='text-center mt-4 text-base font-sans text-zinc-500'> Download my <Link href="/uploads/Resume.pdf">Resume</Link> for more information.</p> */}
     </Layout>

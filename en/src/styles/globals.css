@@ -75,21 +75,19 @@
 .h1-size {
   font-size: 37px;
   line-height: 45px;
-  font-weight: 600;
   @apply max-sm:text-3xl;
 }
 
 .h2-size {
   font-size: 32px;
   line-height: 36px;
-  font-weight: 500;
   @apply max-sm:text-2xl;
 }
 
 .h3-size {
   font-size: 27px;
   line-height: 30px;
-  @apply max-sm:text-xl font-strong;
+  @apply max-sm:text-xl;
 }
 
 .title-size {
@@ -115,14 +113,17 @@ p {
 }
 @layer base {
   h1 {
+    font-weight: 600;
     @apply h1-size font-smallcaps mb-5 mt-10 text-white max-sm:mb-3 max-sm:mt-5 font-serif-lg;
     letter-spacing: 0.01em;
   }
   h2 {
+    font-weight: 500;
     @apply h2-size font-smallcaps mb-3 mt-9 text-white font-serif-lg;
     letter-spacing: 0.01em;
   }
   h3 {
+    font-weight: 600;
     @apply h3-size text-bf mb-3 mt-8 text-white font-serif-lg;
     letter-spacing: 0.03em;
   }
