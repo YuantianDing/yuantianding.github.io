@@ -56,6 +56,7 @@ export default function HomePage() {
                         className="mat-icons-sharp">data_object</span>CODE</a>
             </div>
         </div>
+    <div className='private-content'>
       <h1 className='ml-4 mt-14'>English Notes</h1>
       <PageGrid>
           <PageLink href="notes/felicity" timenote="12/2024">
@@ -74,6 +75,7 @@ export default function HomePage() {
           <p className="my-0 truncate">The Shadowlands</p>
           </PageLink>
       </PageGrid>
+      </div>
     </Layout>
   );
 }
