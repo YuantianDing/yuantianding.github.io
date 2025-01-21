@@ -154,9 +154,9 @@ export default function HomePage() {
             <div>Course project for my operating system course. Leading 3 other students in a group.</div>
             <div className="footnote-size tracking-tight mt-[1px]">
                 <a className="mr-1"
-                    href="https://github.com/YuantianDing/HibertProver/blob/master/test_results.pdf"><span
-                        className="mat-icons-sharp">open_in_new</span>EXAMPLES</a>
-                <a className="mr-1" href="https://github.com/YuantianDing/HibertProver"><span
+                    href="https://github.com/OSH-2020/x-chital/blob/master/docs/conclusion/conclusion.pdf"><span
+                        className="mat-icons-sharp">open_in_new</span>PDF</a>
+                <a className="mr-1" href="https://github.com/OSH-2020/x-chital/tree/master"><span
                         className="mat-icons-sharp">data_object</span>CODE</a>
             </div>
         </div>
