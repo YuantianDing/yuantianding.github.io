@@ -91,6 +91,15 @@ export default function HomePage() {
             <li>Topic: <Link className='text-color-highlight' href="/about/jfass">A New Serverless Platform with Customized JIT Design</Link></li>
         </ul>
 
+        <div className="flex flex-col mt-8">
+            <span className="footnote-size text-color-highlight">07/2021 - 12/2021</span>
+            <strong className="p-size pb-1 font-serif-md">SRI SSFT24 | The 13th Summer School on Formal Techniques</strong>
+        </div>
+        <ul className="flex-none ml-7 mt-1 list-disc text-xl p-size">
+            <li>Summer school for learning techniques based on formal logic. <a className="mr-1"
+                    href="https://fm.csl.sri.com/SSFT24/">(website)</a></li>
+        </ul>
+
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">integration_instructions</span> Projects</h1>
 
         <div className="p-size sm:my-8 max-sm:my-3">
@@ -106,7 +115,7 @@ export default function HomePage() {
         </div>
         <div className="p-size sm:my-8 max-sm:my-3">
             <div><strong className="pr-3 mr-1 border-r border-zinc-300">Oomotion</strong> <span className="p-size">A textobject-oriented editor plugin for VS Code </span></div>
-            <div>An editor inspired by Vim, Kakoune and Helix. With tree-sitter and easy-motion support.</div>
+            <div>A editing keymap inspired by Vim, Kakoune and Helix. Able to edit code based on text-objects like words, lines, code blocks, etc. With tree-sitter and easy-motion support.</div>
             <div className="footnote-size tracking-tight">
                 <a className="mr-1"
                     href="ahttps://marketplace.visualstudio.com/items?itemName=yuantiand.oomotion-vscode"><span
@@ -135,7 +144,18 @@ export default function HomePage() {
             <div className="footnote-size tracking-tight mt-[1px]">
                 <a className="mr-1"
                     href="https://github.com/YuantianDing/HibertProver/blob/master/test_results.pdf"><span
-                        className="mat-icons-sharp">open_in_new</span>PDF</a>
+                        className="mat-icons-sharp">open_in_new</span>EXAMPLES</a>
+                <a className="mr-1" href="https://github.com/YuantianDing/HibertProver"><span
+                        className="mat-icons-sharp">data_object</span>CODE</a>
+            </div>
+        </div>
+        <div className="p-size sm:my-8 max-sm:my-3">
+            <div><strong className="pr-3 mr-1 border-r border-zinc-300">Chital</strong> <span className="p-size">A secure container runtime implemented in Rust</span></div>
+            <div>Course project for my operating system course. Leading 3 other students in a group.</div>
+            <div className="footnote-size tracking-tight mt-[1px]">
+                <a className="mr-1"
+                    href="https://github.com/YuantianDing/HibertProver/blob/master/test_results.pdf"><span
+                        className="mat-icons-sharp">open_in_new</span>EXAMPLES</a>
                 <a className="mr-1" href="https://github.com/YuantianDing/HibertProver"><span
                         className="mat-icons-sharp">data_object</span>CODE</a>
             </div>
