@@ -10,9 +10,7 @@ export default function HomePage() {
     <Layout title={<>About Me</>} innerWidth='74rem'>
       <Seo templateTitle='About Me'/>
       <div className="textbox center-box font-serif-md">
-        <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University. I am working on program synthesis with
-            <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. Pursuing summer 2025 internships to
-            gain hands-on industry experience in software engineering.</p>
+        <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University specializing in program synthesis and verification under the supervision of <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. My research focused on empowering LLM-based code generation with traditional program synthesis technologies. I have also worked with Zhiqiang Zuo, and Harry Xu on compiler systems. </p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">school</span> Education</h1>
 
@@ -67,9 +65,9 @@ export default function HomePage() {
         </div>
 
         <div className="p-size sm:my-10 max-sm:my-5">
-            <strong>A Concurrent Approach to String Transformation Synthesis.</strong>
+            <strong>(Pending) A Concurrent Approach to String Transformation Synthesis.</strong>
             {/* <a className="text-color-highlight" href="https://engineering.purdue.edu/~xqiu/"></a> */}
-            <div>WORKING IN PROGRESS</div>
+            <div>Yuantian Ding, Xiaokang Qiu.</div>
             {/* <div>(POPL '24) <em>Proc. 51st ACM SIGPLAN Symposium on Principles of Programming Languages.</em> </div> */}
             <div className="footnote-size tracking-tight">
                 <a className="mr-1" href="#"><span className="mat-icons-sharp">description</span>PDF</a>
