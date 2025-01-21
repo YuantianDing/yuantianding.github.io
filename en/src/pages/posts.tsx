@@ -34,7 +34,7 @@ export default function HomePage() {
         </div>
         <div className="p-size sm:my-8 max-sm:my-3 textbox md:px-7">
             <div><strong className="pr-3 mr-1 border-r border-zinc-300">TheoryComboViz</strong> <span className="p-size">Polite theory combination visualizer</span></div>
-            <div>A visualizer for <a href="https://link.springer.com/chapter/10.1007/11559306_3">polite theory combination</a>, demonstrated using Sets. Theory combination is implemented extensively in SMT solvers, which are used for fields such as formal program verification, automated reasoning, and software testing.</div>
+            <div>A visualizer for <a href="https://link.springer.com/chapter/10.1007/11559306_3">polite theory combination</a>, demonstrated using Sets. Theory combination is implemented extensively in SMT solvers, which are used for fields such as formal program verification, automated reasoning, and software testing. We also contributed to Z3 Typescript API in this project.</div>
             <div className="footnote-size tracking-tight mt-[1px]">
                 <a className="mr-1"
                     href="https://docs.google.com/presentation/d/1lR_ZgWF3qUQmqB5BKtot7045xPKbSlKUDN402SvpBiM/edit?usp=sharing"><span
