@@ -1,3 +1,4 @@
-"for that matter" 可以用来强调前面提到的情况对同一问题的适用性，表示进一步推论或延伸适用的意思。
+“for that matter” 通常用来强调之前提到的事情，可以理解为“就此而言”或“在这个意义上”。它用于让读者或听者理解前后两件事情的相关性或相似性。
 
-英文例句：Cats are not the only animals that can be independent; dogs, for that matter, can also be quite self-sufficient.
+英文例句：
+"I don't like horror movies, and for that matter, I don't enjoy thrillers either."

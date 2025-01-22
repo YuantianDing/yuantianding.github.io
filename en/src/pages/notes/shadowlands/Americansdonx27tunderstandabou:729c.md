@@ -1,3 +1,3 @@
-"抑制"是指遏制情感、冲动或行为的能力。通常用来描述个体在特定情况下控制自己冲动的表现。
+抑制：是指限制或控制自己的情感、冲动或者行为的能力。
 
-英文例句：She had little inhibition when it came to speaking in public, easily delivering her speech to a large crowd.
+英文例句：His inhibition prevented him from speaking in public, leading to missed opportunities.

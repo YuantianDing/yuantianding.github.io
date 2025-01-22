@@ -1,3 +1,3 @@
-“伸出一只手”是指将一只手臂向前或向外延伸。这可能是为了拿东西、迎接他人或者进行其他活动。
+“伸出一只手” 意指将一只手臂向外延伸或伸长，通常是为了能够触碰或者够到某个物体。
 
-英文例句：She had to stretch out one hand to grab the book from the top shelf.
+例句：She had to stretch out one hand to reach the book on the top shelf.

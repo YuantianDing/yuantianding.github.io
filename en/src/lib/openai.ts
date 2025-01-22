@@ -7,13 +7,17 @@ import parse from 'html-react-parser';
 import ReactDOM from 'react-dom/server';
 let client: OpenAI | null = null;
 
+export function getTitle(text: string): string {
+    const sha256 = crypto.createHash('sha256').update(text).digest('hex');
+    return text.split("").filter(ch => /^[A-Za-z0-9]$/i.test(ch)).join("").substring(0, 30) + ':' + sha256.substring(0, 4);
+}
+
 export async function generate_explanation(dirname: string, input: React.ReactNode) {
     if (client === null) {
         client = new OpenAI({apiKey: process.env['OPENAI_API_KEY']})
     }
     const text: string = ReactDOM.renderToStaticMarkup(input);
-    const sha256 = crypto.createHash('sha256').update(text).digest('hex');
-    const title = text.split("").filter(ch => /^[A-Za-z0-9]$/i.test(ch)).join("").substring(0, 30) + ':' + sha256.substring(0, 4);
+    const title = getTitle(text);
     let md = "";
     if (!fs.existsSync(`${dirname}/${title}.md`)) {
         const mbyb = (text.match(/<b>(.*?)<\/b>/))? "用<b>标出的": "";

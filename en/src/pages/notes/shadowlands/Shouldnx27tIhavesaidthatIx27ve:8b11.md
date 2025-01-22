@@ -1,3 +1,3 @@
-用户短语的大意是对之前自己没有说出自己未婚状态的行为感到疑惑或后悔。
+这个短语表示说话者在反思自己是否应该提到自己没有结过婚。这种反思可能源于想让对话更加准确或更有礼貌。
 
-英文例句：In hindsight, shouldn't I have said that I've not been married to clear up any misunderstandings?
+英文例句：When I was talking to my old friend, I wondered later, shouldn't I have said that I've not been married?

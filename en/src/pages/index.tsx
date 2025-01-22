@@ -10,7 +10,7 @@ export default function HomePage() {
     <Layout title={<>About Me</>} innerWidth='74rem'>
       <Seo templateTitle='About Me'/>
       <div className="textbox center-box font-serif-md">
-        <p>Hi! I'm Yuantian Ding, a third-year PhD student at Purdue University specializing in program synthesis and verification under the supervision of <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. My research focused on empowering LLM-based code generation with traditional program synthesis technologies. I have also worked with Zhiqiang Zuo, and Harry Xu on compiler systems. </p>
+        <p>I'm Yuantian Ding, a third-year PhD student at Purdue University specializing in program synthesis and verification under the supervision of <a href="https://engineering.purdue.edu/~xqiu/"> Prof. Xiaokang Qiu</a>. My recent research is focused on empowering LLM-based code generation with traditional program synthesis technologies. I have also worked with Zhiqiang Zuo, and Harry Xu on compiler systems. </p>
 
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">school</span> Education</h1>
 
@@ -26,7 +26,6 @@ export default function HomePage() {
             <ul className="ml-7 mt-1 p-size list-disc pl-0">
                 <li><span>Ph.D. Electrical and Computer Engineering</span></li>
                 <li> Advised by <a href="https://engineering.purdue.edu/~xqiu/">Xiaokang Qiu</a></li>
-                <li>GPA: 3.91/4.00</li>
             </ul>
         </div>
         <div className="flex flex-row content-start sm:mt-10">
@@ -98,7 +97,7 @@ export default function HomePage() {
                     href="https://fm.csl.sri.com/SSFT24/">(website)</a></li>
         </ul>
 
-        <h1 className="ml-1"><span className="mat-icons-sharp mr-3">integration_instructions</span> Projects</h1>
+        <h1 className="ml-1"><span className="mat-symbol-sharp mr-3">diamond</span> Projects</h1>
 
         <div className="p-size sm:my-8 max-sm:my-3">
             <div><strong className="pr-3 mr-1 border-r border-zinc-300">DryadSynth</strong> <span className="p-size">Dryad Synthesizer for SyGuS competition</span></div>
@@ -168,7 +167,7 @@ export default function HomePage() {
         <br/> Topic (Final): Efficient Numerical Simulation of <a href="/uploads/数值方法.pdf">Supersonic Underexpanded Thermal Jets</a>
         </p>
 
-        <h1 className="ml-1"><span className="mat-icons-sharp mr-3">perm_contact_calendar</span> Skills</h1>
+        <h1 className="ml-1"><span className="mat-symbol-sharp mr-3">swords</span> Skills</h1>
         <div className="flex flex-row row justify-evenly my-10">
             <div className="flex flex-col items-center">
                 <PercentageCircle className="text-xl size-16 " stroke_width={2} percentage={60}>60%</PercentageCircle>
@@ -195,7 +194,7 @@ export default function HomePage() {
                 <span className="p-size text-center">Python</span>
             </div>
         </div>
-        <h1 className="ml-1"><span className="mat-icons-sharp mr-3">sailing</span> Hobbies</h1>
+        <h1 className="ml-1"><span className="mat-symbol-sharp mr-3">sailing</span> Hobbies</h1>
 
         <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">Chanting</strong> Favorite Piece: <a href="https://musescore.com/user/33379492/scores/7390607">Cherubic Hymn (Kastorsky)</a></p>
         <p className="sm:my-5"><strong className="text-bf pr-3 mr-1 border-r border-zinc-300">Playing <a href="https://en.wikipedia.org/wiki/Erhu">Erhu</a></strong> Favorite Piece: <a href="https://en.wikipedia.org/wiki/Abing">Erquan Yingyue</a> </p>

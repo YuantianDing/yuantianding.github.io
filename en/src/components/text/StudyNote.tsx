@@ -3,8 +3,9 @@
 import React, {Component, useState} from 'react'
 import fs from 'fs';
 import ReactDom from 'react-dom/server';
-import { generate_explanation } from '@/lib/openai';
+import { generate_explanation, getTitle } from '@/lib/openai';
 import reactToText from 'react-to-text';
+import { basename } from 'path';
 
 export default function StudyNote({note, children, className}: {note: React.ReactNode, children: React.ReactNode, className?: string}) {
     const [open, setOpen] = useState(false);
@@ -26,18 +27,33 @@ export default function StudyNote({note, children, className}: {note: React.Reac
 
 export class StudyNoteGen {
   dirname: string;
-  notes: string[] = [];
+  notes: React.ReactNode[] = [];
   constructor(dirname: string) {
     this.dirname = dirname.replace('.next/server', 'src').replace('.js', '')
     this.notes = [];
   }
   async gen(note: React.ReactNode, className = "") {
-      this.notes.push(reactToText(note));
+      this.notes.push(note);
       return <StudyNote className={className}note={note}>{await generate_explanation(this.dirname, note)}</StudyNote>
   }
   async allnotes_file() {
     const filename = this.dirname + '/_allnotes.md';
-    fs.writeFileSync(filename, this.notes.join('\n\n'));
+    fs.writeFileSync(filename, this.notes.map(a => reactToText(a)).join('\n\n'));
+    
+    const map = new Set();
+    for(const note of this.notes) {
+      const title = getTitle(ReactDom.renderToStaticMarkup(note));
+      map.add(title + '.md');
+    }
+
+    const files = await fs.globSync(this.dirname + '/*.md');
+    for(const file of files) {
+      if(basename(file).startsWith('_')) {continue;}
+      if(!map.has(basename(file))) {
+        console.log('deleting', file);
+        fs.unlinkSync(file);
+      }
+    }
   }
   get_mp3_address(): string {
     return "https://github.com/YuantianDing/yuantianding.github.io/raw/refs/heads/main/en/src/" + this.dirname.split("/src/")[1] + "/_allnotes.mp3";
