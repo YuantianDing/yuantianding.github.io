@@ -59,8 +59,8 @@ export default function HomePage() {
     <div className='private-content'>
       <h1 className='ml-4 mt-14'>English Notes</h1>
       <PageGrid>
-          <PageLink href="notes/felicity" timenote="12/2024">
-          <p className="my-0 truncate">Felicity</p>
+          <PageLink href="notes/dailynote" timenote="12/2024">
+          <p className="my-0 truncate">Daily Note</p>
           </PageLink>
           <PageLink href="notes/thelordoftherings" timenote="12/2024">
           <p className="my-0 truncate">The Lord of The Rings</p>

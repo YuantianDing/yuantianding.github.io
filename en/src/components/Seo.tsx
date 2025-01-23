@@ -2,8 +2,8 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 const defaultMeta = {
-  title: "Yuantian's Blog",
-  siteName: "Yuantian's Blog",
+  title: "Yuantian Ding",
+  siteName: "Yuantian Ding",
   description:
     'Yuantian Ding is a researcher in the field of program verification and synthesis. He is currently a Ph.D. student at Purdue University.',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
@@ -25,7 +25,7 @@ export default function Seo(props: SeoProps) {
     ...props,
   };
   meta['title'] = props.templateTitle
-    ? `${props.templateTitle} | ${meta.siteName}`
+    ? `${meta.siteName}`
     : meta.title;
 
   return (
