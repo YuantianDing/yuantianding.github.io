@@ -17,6 +17,9 @@ export default function HomePage({children}: {children: any}) {
         <PageLink href="wardrobe/1" timenote="12/2024">
         <p className="my-0 truncate">Chapter 1</p>
         </PageLink>
+        <PageLink href="wardrobe/2" timenote="12/2024">
+        <p className="my-0 truncate">Chapter 2</p>
+        </PageLink>
     </PageGrid>
   </div>
     </Layout>;
