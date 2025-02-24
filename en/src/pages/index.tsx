@@ -79,6 +79,16 @@ export default function HomePage() {
         <h1 className="ml-1"><span className="mat-icons-sharp mr-3">business_center</span> Experience</h1>
 
         <div className="flex flex-col">
+            <span className="footnote-size text-color-highlight">02/2025 - Present</span>
+            <strong className="p-size pb-1 font-serif-md">SuperINTRO | Conversational AI Full-Stack Engineer Intern</strong>
+        </div>
+        <ul className="flex-none ml-7 mt-1 list-disc text-xl p-size">
+            <li>Working on AI agents and RAG models using leading LLM frameworks (OpenAI API and Langchain).</li>
+            <li>Apply prompt engineering techniques for AI models to improve the relevance and accuracy of responses.</li>
+        </ul>
+
+
+        <div className="flex flex-col">
             <span className="footnote-size text-color-highlight">07/2021 - 12/2021</span>
             <strong className="p-size pb-1 font-serif-md">Nanjing University Research Internship</strong>
         </div>
