@@ -77,3 +77,29 @@ greater than the sum of the parts
 make it back
 
 transfer it over to
+
+insurmountable
+
+scribble
+
+raise the bar
+
+come along (progressing)
+
+sleep on (thinking)
+
+walk the talk
+
+Bigger fish to fry
+
+in the loop
+
+up to speed
+
+concurrence
+
+pressing matters
+
+condominium
+
+rock the boat

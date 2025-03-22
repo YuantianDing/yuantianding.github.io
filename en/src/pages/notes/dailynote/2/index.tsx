@@ -56,6 +56,19 @@ export const getStaticProps = async (ctx: any) => {
             {await generator.gen(<>greater than the sum of the parts</>)}
             {await generator.gen(<>make it back</>)}
             {await generator.gen(<>transfer it over to</>)}
+            {await generator.gen(<>insurmountable</>)}
+            {await generator.gen(<>scribble</>)}
+            {await generator.gen(<>raise the bar</>)}
+            {await generator.gen(<>come along (progressing)</>)}
+            {await generator.gen(<>sleep on (thinking)</>)}
+            {await generator.gen(<>walk the talk</>)}
+            {await generator.gen(<>Bigger fish to fry</>)}
+            {await generator.gen(<>in the loop</>)}
+            {await generator.gen(<>up to speed</>)}
+            {await generator.gen(<>concurrence</>)}
+            {await generator.gen(<>pressing matters</>)}
+            {await generator.gen(<>condominium</>)}
+            {await generator.gen(<>rock the boat</>)}
         </div>
         <audio className="py-3" src={generator.get_mp3_address()} controls={true}></audio>
       </div>

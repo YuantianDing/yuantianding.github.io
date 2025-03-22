@@ -64,14 +64,14 @@ export default function HomePage() {
         </div>
 
         <div className="p-size sm:my-10 max-sm:my-5">
-            <strong>(Pending) A Concurrent Approach to String Transformation Synthesis.</strong>
+            <strong>(Conditional Accepted) A Concurrent Approach to String Transformation Synthesis.</strong>
             {/* <a className="text-color-highlight" href="https://engineering.purdue.edu/~xqiu/"></a> */}
             <div>Yuantian Ding, Xiaokang Qiu.</div>
-            {/* <div>(POPL '24) <em>Proc. 51st ACM SIGPLAN Symposium on Principles of Programming Languages.</em> </div> */}
+            <div>By (PLDI '25) <em>46th ACM SIGPLAN Conference on Programming Language Design and Implementation.</em> </div>
             <div className="footnote-size tracking-tight">
-                <a className="mr-1" href="#"><span className="mat-icons-sharp">description</span>PDF</a>
+                <a className="mr-1" href="uploads/PLDI_2025.pdf"><span className="mat-icons-sharp">description</span>PDF</a>
                 {/* <a className="mr-1" href="#"><span className="mat-icons-sharp">open_in_new</span>DOI</a> */}
-                <a className="mr-1" href="#"><span className="mat-icons-sharp">data_object</span>CODE</a>
+                <a className="mr-1" href="https://github.com/YuantianDing/Synthphonia"><span className="mat-icons-sharp">data_object</span>CODE</a>
                 {/* <a className="mr-1" href="#"><span className="mat-icons-sharp">videocam</span>TALK</a> */}
             </div>
         </div>
@@ -88,7 +88,7 @@ export default function HomePage() {
         </ul>
 
 
-        <div className="flex flex-col">
+        <div className="flex flex-col mt-8">
             <span className="footnote-size text-color-highlight">07/2021 - 12/2021</span>
             <strong className="p-size pb-1 font-serif-md">Nanjing University Research Internship</strong>
         </div>
