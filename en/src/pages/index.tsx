@@ -67,7 +67,7 @@ export default function HomePage() {
             <strong>A Concurrent Approach to String Transformation Synthesis.</strong>
             {/* <a className="text-color-highlight" href="https://engineering.purdue.edu/~xqiu/"></a> */}
             <div>Yuantian Ding, Xiaokang Qiu.</div>
-            <div>PLDI '25 <em>Proc. 46th ACM SIGPLAN Conference on Programming Language Design and Implementation.</em> </div>
+            <div>(PLDI '25) <em>Proc. 46th ACM SIGPLAN Conference on Programming Language Design and Implementation.</em> </div>
             <div className="footnote-size tracking-tight">
                 <a className="mr-1" href="uploads/PLDI_2025.pdf"><span className="mat-icons-sharp">description</span>PDF</a>
                 {/* <a className="mr-1" href="#"><span className="mat-icons-sharp">open_in_new</span>DOI</a> */}
