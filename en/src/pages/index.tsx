@@ -57,21 +57,22 @@ export default function HomePage() {
                 <a className="mr-1" href="https://doi.org/10.1145/3632913"><span
                         className="mat-icons-sharp">open_in_new</span>DOI</a>
                 <a className="mr-1" href="https://github.com/purdue-cap/DryadSynth"><span
-                        className="mat-icons-sharp">data_object</span>CODE</a>
+                        className="mat-symbol-sharp">code_blocks</span>CODE</a>
                 <a className="mr-1" href="https://www.youtube.com/watch?v=lbDxCZ7wh80"><span
                         className="mat-icons-sharp">videocam</span>TALK</a>
             </div>
         </div>
 
         <div className="p-size sm:my-10 max-sm:my-5">
-            <strong>(Conditional Accepted) A Concurrent Approach to String Transformation Synthesis.</strong>
+            <strong>A Concurrent Approach to String Transformation Synthesis.</strong>
             {/* <a className="text-color-highlight" href="https://engineering.purdue.edu/~xqiu/"></a> */}
             <div>Yuantian Ding, Xiaokang Qiu.</div>
-            <div>By (PLDI '25) <em>46th ACM SIGPLAN Conference on Programming Language Design and Implementation.</em> </div>
+            <div>PLDI '25 <em>Proc. 46th ACM SIGPLAN Conference on Programming Language Design and Implementation.</em> </div>
             <div className="footnote-size tracking-tight">
                 <a className="mr-1" href="uploads/PLDI_2025.pdf"><span className="mat-icons-sharp">description</span>PDF</a>
                 {/* <a className="mr-1" href="#"><span className="mat-icons-sharp">open_in_new</span>DOI</a> */}
-                <a className="mr-1" href="https://github.com/YuantianDing/Synthphonia"><span className="mat-icons-sharp">data_object</span>CODE</a>
+                <a className="mr-1" href="https://github.com/YuantianDing/Synthphonia"><span className="mat-symbol-sharp">code_blocks</span>CODE</a>
+                <a className="mr-1" href="https://github.com/YuantianDing/Synthphonia/blob/main/docs/artifact.md"><span className="mat-symbol-sharp">box</span>ARTIFACT</a>
                 {/* <a className="mr-1" href="#"><span className="mat-icons-sharp">videocam</span>TALK</a> */}
             </div>
         </div>
